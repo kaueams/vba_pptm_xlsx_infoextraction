@@ -1,0 +1,7 @@
+# Highlight standard VBA source files
+*.vba linguist-language=vba
+
+# Highlight exported Excel/Access VBA modules and forms
+*.bas linguist-language=vba
+*.cls linguist-language=vba
+*.frm linguist-language=vba
