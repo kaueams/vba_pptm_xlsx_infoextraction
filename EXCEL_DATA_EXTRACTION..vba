@@ -9,7 +9,7 @@ Sub CRIAR_ZLIDES_FOTOS_WEEK_ATUAL()
 	'#######vars de estrutura - inicio das declaracoes#######
 	Dim WEEK_ATUAL As String
 	
-	Dim Excel_CUP, Excel_UFO, Excel_CROC As String
+	Dim Excel_01, Excel_02, Excel_03 As String
 	Dim xlApp, wb, ws, targetRange, foundCell, QUINA_UPPER_LEFT, firstAddress, allResults
 	Dim foundColumn, foundRow As Integer
 		Set xlApp = CreateObject("Excel.Application")
